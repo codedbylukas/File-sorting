@@ -2,13 +2,13 @@
 
 This script moves all files within a specific directory, categorizing them into subfolders based on their file extensions.
 
-## 🪄 Installation Instructions:
+## Installation Instructions:
 
 1. Ensure that Python is installed on your system.
 2. Clone or download the repository.
 3. Open a command prompt or terminal and navigate to the downloaded directory.
 
-## 🚀 Usage:
+## Usage:
 
 The script operates as follows:
 
@@ -22,17 +22,16 @@ The script operates as follows:
 - Moves the file into the corresponding subfolder using sh.move().
 6. It outputs a message indicating the move operation for each file.
 
-## 🧠 Example:
+## Example:
 
 If the current working directory contains files such as file1.txt, file2.pdf, and image.jpg, these would be moved into subfolders named txt/, pdf/, and jpg/ respectively, based on their file extensions.
 
-## 🧠 Notes:
+## Notes:
 
 - The script moves all files in the specified directory and its subdirectories.
 - It retains the original filename while moving and creates folders based on the file suffix.
 - Ensure that no important files are present in the target directory that might be affected by this script.
 
-## 🛡️ License:
+## License:
 
 This project is licensed under the MIT license - see the LICENSE file for details.
-
